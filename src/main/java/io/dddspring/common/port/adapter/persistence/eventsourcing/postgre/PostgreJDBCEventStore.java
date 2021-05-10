@@ -389,6 +389,6 @@ public class PostgreJDBCEventStore implements EventStore, ApplicationContextAwar
             ApplicationContext anApplicationContext)
     throws BeansException {
         instance = (PostgreJDBCEventStore)
-                anApplicationContext.getBean("mysqlJdbcEventStore");
+                anApplicationContext.getBean("postgreJdbcEventStore");
     }
 }
